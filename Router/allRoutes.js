@@ -3,7 +3,7 @@ import Route from "./Route.js";
 //Définir ici vos routes
 export const allRoutes = [
     new Route("/", "Accueil", "/pages/home.html"),
-             ("/pages", "Présentation","/pages/but.html")];
+             ("/but", "Présentation","/pages/but.html")];
 
 //Le titre s'affiche comme ceci : Route.titre - websitename
 export const websiteName = "emat-documentation";

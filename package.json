@@ -1,0 +1,23 @@
+{
+  "name": "emat",
+  "version": "1.0.0",
+  "description": "ce site est un site qui va servi de documentation/tutoriel concernant l'utilisation de e-mat pour les néophyte  ou tout simplement pour se souvenir de choses non couremment utilisées.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X-CYL/emat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/X-CYL/emat/issues"
+  },
+  "homepage": "https://github.com/X-CYL/emat#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3"
+  }
+}

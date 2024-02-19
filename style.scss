@@ -10,6 +10,10 @@ body{
     background-color: $primaryColor;
     min-height: 100vh;
 }
+
+.navbar{
+    max-width: 92%;
+}
 .presentation{
     display: flex;
     flex-direction: column;
@@ -29,7 +33,7 @@ section p{
     background-color: $secondaryColor;
 }
 .hover:hover{
-    background-color: rgba(14, 243, 52, 0.342);
+    background-color: rgba(246, 235, 120, 0.851);
     transition: background 1s;
     transition-delay: 0,7s;
 }

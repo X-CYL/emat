@@ -5,16 +5,23 @@
     <meta name="viewport" content="width= device-width>, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="d-flex flex-column">
     <header>
-        <h1 class="text-center">le header de mon site</h1>
+        <h1 class="text-center text-info">le header de mon site</h1>
     </header>
     <main id="main-page"></main>
-    <footer>
-        <p>le footer de mon site</p>
+    <footer class="container mt-auto rounded-4 bg-footer">
+        <div class="container row text-center fst-italic fs-5 pt-1 justify-content-center">
+            <p class="col col-xl-1">x-cyl</p> 
+            <div class="col col-xl-1">
+              <img class="lLogo" src="./pictures/misc/logo_linkedin.png"> 
+            </div>
+        </div>  
     </footer>
     <script type="module" src="Router/router.js"></script>
     <script src="node-modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

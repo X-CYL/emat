@@ -1,0 +1,52 @@
+$primaryColor:rgb(151,192,255);
+$secondaryColor:rgb(232,246,255);
+$thirdColor:(#FBEEC1);
+$textColor1:(rgb(36, 139, 36));
+
+
+
+
+body{
+    background-color: $primaryColor;
+    min-height: 100vh;
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+section p{
+    margin-top: 50px;
+}
+.lLogo{
+    max-width: 50px;
+    max-height: 30px;
+}
+.bg-menu{
+    background-color: $secondaryColor;
+}
+.bg-footer{
+    background-color: $secondaryColor;
+}
+.hover:hover{
+    background-color: rgba(14, 243, 52, 0.342);
+    transition: background 1s;
+    transition-delay: 0,7s;
+}
+.photo-site{
+    max-width: 70%;
+}
+.photo-site:hover{
+    max-width: 90%;
+}
+.photo-site2{
+    max-width: 50%;
+}
+.photo-site2:hover{
+    max-width: 80%;
+}
+
+.lLogo2{
+    max-width: 130px;
+    max-height: 100px;
+}

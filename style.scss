@@ -12,7 +12,8 @@ body{
 }
 
 .navbar{
-    max-width: 92%;
+    margin: auto;
+    max-width: 88%;
 }
 .presentation{
     display: flex;
@@ -54,3 +55,22 @@ section p{
     max-width: 130px;
     max-height: 100px;
 }
+
+.img-anim{
+    animation-duration: 6s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    0% {
+      opacity: 0.1;
+      transform: translateX(-200px);
+    }
+    80% {
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
